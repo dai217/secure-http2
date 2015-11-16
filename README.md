@@ -33,14 +33,14 @@ server.listen(3000);
 This software is licensed under the MIT License.
 
 secure-spdy  
-Copyright Suzuki Daisaku, 2015.
+Copyright (C) Suzuki Daisaku, 2015.
 
 Includes node-spdy  
-Copyright Fedor Indutny, 2015.  
+Copyright (C) Fedor Indutny, 2015.  
 Released under the MIT Licenses.
 
 Includes mobile-detect.js  
-Copyright Heinrich Goebl, Agenda Software GmbH & Co. KG, 2013.  
+Copyright (C) Heinrich Goebl, Agenda Software GmbH & Co. KG, 2013.  
 Released under the MIT Licenses.
 
 
