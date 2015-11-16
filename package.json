@@ -1,0 +1,35 @@
+{
+  "name": "secure-spdy",
+  "version": "0.0.1",
+  "description": "Implementation of Secure Session Management System on node.js.",
+  "license": "MIT",
+  "keywords": [
+    "spdy","http/2","secure","session-hijack"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dai217/secure-spdy.git"
+  },
+  "homepage": "https://github.com/dai217/secure-spdy",
+  "author": {
+    "name": "Daisaku Suzuki",
+    "email": "aata2770@chiba-u.jp"
+  },
+  "dependencies": {
+    "debug": "^2.2.0",
+    "handle-thing": "^1.2.4",
+    "http-deceiver": "^1.2.4",
+    "select-hose": "^2.0.0",
+    "spdy-transport": "^1.1.5",
+    "mobile-detect": "^0.4.3"
+  },
+  "devDependencies": {
+    "jscs": "^1.13.1",
+    "jshint": "^2.8.0",
+    "mocha": "^2.2.x"
+  },
+  "engines": [
+    "node >= 0.10.20"
+  ],
+  "main": "./lib/spdy"
+}
