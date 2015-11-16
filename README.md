@@ -1,6 +1,6 @@
 # secure-spdy
 
-With this module you can create [HTTP2][0] / [SPDY][1] servers
+With this module you can create HTTP2/SPDY servers
 in node.js with natural http module interface and fallback to regular https
 (for browsers that don't support neither HTTP2, nor SPDY yet).
 
