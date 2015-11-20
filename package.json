@@ -1,10 +1,10 @@
 {
   "name": "secure-spdy",
   "version": "0.0.1",
-  "description": "Implementation of Secure Session Management System on node.js.",
+  "description": "Implementation of SPDY-based Secure Session Management System on node.js.",
   "license": "MIT",
   "keywords": [
-    "spdy","http/2","secure","session-hijack"
+    "spdy","http/2","secure","session-hijacking"
   ],
   "repository": {
     "type": "git",
@@ -17,10 +17,6 @@
   },
   "dependencies": {
     "debug": "^2.2.0",
-    "handle-thing": "^1.2.4",
-    "http-deceiver": "^1.2.4",
-    "select-hose": "^2.0.0",
-    "spdy-transport": "^1.1.5",
     "mobile-detect": "^0.4.3"
   },
   "engines": [
