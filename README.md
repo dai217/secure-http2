@@ -3,10 +3,11 @@
 ## Description 
 With this module you can create HTTP2/SPDY-based secure session management servers
 in node.js.
-This module is based on [node-spdy](https://github.com/indutny/node-spdy) module.
+This module is based on indutny/[node-spdy](https://github.com/indutny/node-spdy).
 
 ## Features
-
+swapper.js
+S3M scheme
 
 ## Requirement
 Node.js
@@ -49,11 +50,11 @@ This software is licensed under the MIT License.
 secure-spdy  
 Copyright (C) Suzuki Daisaku, 2015.
 
-Includes [node-spdy](https://github.com/indutny/node-spdy)
+Includes [node-spdy](https://github.com/indutny/node-spdy)  
 Copyright (C) Fedor Indutny, 2015.  
 Released under the MIT Licenses.
 
-Includes [mobile-detect.js](https://github.com/hgoebl/mobile-detect.js)
+Includes [mobile-detect.js](https://github.com/hgoebl/mobile-detect.js)  
 Copyright (C) Heinrich Goebl, Agenda Software GmbH & Co. KG, 2013.  
 Released under the MIT Licenses.
 
