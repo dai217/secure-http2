@@ -2,9 +2,9 @@
 # secure-spdy
 HTTP2/SPDY-based secure session management server on Node.js.
 ## Description 
-This module is used for preventing session hijacking attacks.  
+This module is used for preventing session hijacking attacks.
 With this module you can create [HTTP2](https://http2.github.io/)/[SPDY](http://www.chromium.org/spdy)-based secure session management servers
-in node.js.  
+on Node.js.
 This module is based on [indutny/node-spdy](https://github.com/indutny/node-spdy).
 
 ## Usage
