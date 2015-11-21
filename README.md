@@ -5,10 +5,6 @@ With this module you can create HTTP2/SPDY-based secure session management serve
 in node.js.
 This module is based on indutny/[node-spdy](https://github.com/indutny/node-spdy).
 
-## Features
-swapper.js
-S3M scheme
-
 ## Requirement
 Node.js
 
