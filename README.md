@@ -1,11 +1,15 @@
 # secure-spdy
 
-With this module you can create HTTP2/SPDY servers
-in node.js with natural http module interface and fallback to regular https
-(for browsers that don't support neither HTTP2, nor SPDY yet).
-
 ## Description 
-This module is based on 'node-spdy' module.
+With this module you can create HTTP2/SPDY-based secure session management servers
+in node.js.
+This module is based on [node-spdy](https://github.com/indutny/node-spdy) module.
+
+## Features
+
+
+## Requirement
+Node.js
 
 ## Usage
 Server:
@@ -26,20 +30,30 @@ var server = secureSpdy.createServer(options, function(req, res) {
 
 server.listen(3000);
 ```
+##Installation
+Clone the git repository as
+```
+git clone https://github.com/dai217/secure-spdy.git
+```
+You can also use secure-spdy as an npm package. You can install it by:
+```
+npm instal secure-spdy
+```
+## Acknowlidgement
+We would like to offer my special thanks to indutny, Heinrich Goebl, Agenda Software GmbH & Co. KG.
 
-
-#### LICENSE
+## License
 
 This software is licensed under the MIT License.
 
 secure-spdy  
 Copyright (C) Suzuki Daisaku, 2015.
 
-Includes node-spdy  
+Includes [node-spdy](https://github.com/indutny/node-spdy)
 Copyright (C) Fedor Indutny, 2015.  
 Released under the MIT Licenses.
 
-Includes mobile-detect.js  
+Includes [mobile-detect.js](https://github.com/hgoebl/mobile-detect.js)
 Copyright (C) Heinrich Goebl, Agenda Software GmbH & Co. KG, 2013.  
 Released under the MIT Licenses.
 
