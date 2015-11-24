@@ -35,8 +35,8 @@ You can also use secure-spdy as an npm package. You can install it by:
 ```
 npm install secure-spdy
 ```
-## Acknowlidgement
-We would like to offer my special thanks to indutny, Heinrich Goebl, Agenda Software GmbH & Co. KG.
+## Acknowledgement
+We would like to offer special thanks to indutny, Heinrich Goebl, Agenda Software GmbH & Co. KG.
 
 ## License
 
