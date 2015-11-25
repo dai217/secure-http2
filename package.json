@@ -20,7 +20,9 @@
     "cookie-signature": "^1.0.6",
     "handle-thing": "^1.2.4",
     "select-hose": "^2.0.0",
-    "http-deceiver": "^1.2.4"
+    "http-deceiver": "^1.2.4",
+    "mobile-detect": "^0.4.3",
+    "secure-spdy-transport": "0.0.1"
   },
   "engines": [
     "node >= 0.12.0"
