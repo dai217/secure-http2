@@ -17,7 +17,10 @@
   },
   "dependencies": {
     "debug": "^2.2.0",
-    "cookie-signature": "^1.0.6"
+    "cookie-signature": "^1.0.6",
+    "handle-thing": "^1.2.4",
+    "select-hose": "^2.0.0",
+    "http-deceiver": "^1.2.4"
   },
   "engines": [
     "node >= 0.12.0"

@@ -42,10 +42,13 @@ We would like to offer special thanks to indutny, Heinrich Goebl, Agenda Softwar
 
 This software is licensed under the MIT License.
 
-secure-spdy  
 Copyright (C) Suzuki Daisaku, 2015.
 
 Includes [node-spdy](https://github.com/indutny/node-spdy)  
+Copyright (C) Fedor Indutny, 2015.  
+Released under the MIT Licenses.
+
+Includes [spdy-transport](https://github.com/indutny/spdy-transport)  
 Copyright (C) Fedor Indutny, 2015.  
 Released under the MIT Licenses.
 
