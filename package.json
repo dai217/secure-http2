@@ -1,6 +1,6 @@
 {
   "name": "secure-spdy",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Implementation of SPDY-based Secure Session Management System on node.js.",
   "license": "MIT",
   "keywords": [
@@ -22,7 +22,7 @@
     "select-hose": "^2.0.0",
     "http-deceiver": "^1.2.4",
     "mobile-detect": "^0.4.3",
-    "secure-spdy-transport": "0.0.1"
+    "secure-spdy-transport": "0.0.2"
   },
   "engines": [
     "node >= 0.12.0"
