@@ -1,5 +1,5 @@
 
-# secure-spdy
+# secure-http2
 HTTP2/SPDY-based secure session management server on Node.js.
 ## Description 
 This module is used for preventing session hijacking attacks.
@@ -10,16 +10,16 @@ This module is based on [indutny/node-spdy](https://github.com/indutny/node-spdy
 ## Usage
 Server:
 ```javascript
-var secureSpdy = require('secure-spdy'),
+var secureHttp2 = require('secure-http2'),
     fs = require('fs');
 
 var options = {
-  key: fs.readFileSync(__dirname + '/keys/spdy-key.pem'),
-  cert: fs.readFileSync(__dirname + '/keys/spdy-cert.pem'),
-  ca: fs.readFileSync(__dirname + '/keys/spdy-ca.pem'),
+  key: fs.readFileSync(__dirname + '/keys/key.pem'),
+  cert: fs.readFileSync(__dirname + '/keys/cert.pem'),
+  ca: fs.readFileSync(__dirname + '/keys/ca.pem'),
 };
 
-var server = secureSpdy.createServer(options, function(req, res) {
+var server = secureHttp2.createServer(options, function(req, res) {
   res.writeHead(200);
   res.end('hello world!');
 });
@@ -29,11 +29,11 @@ server.listen(3000);
 ##Installation
 Clone the git repository as
 ```
-git clone https://github.com/dai217/secure-spdy.git
+git clone https://github.com/dai217/secure-http2.git
 ```
 You can also use secure-spdy as an npm package. You can install it by:
 ```
-npm install secure-spdy
+npm install secure-http2
 ```
 ## Acknowledgement
 We would like to offer special thanks to indutny, Heinrich Goebl, Agenda Software GmbH & Co. KG.

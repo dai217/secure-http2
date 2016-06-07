@@ -1,6 +1,6 @@
 {
-  "name": "secure-spdy",
-  "version": "1.0.0",
+  "name": "secure-http2",
+  "version": "1.0.1",
   "description": "Implementation of SPDY-based Secure Session Management System on node.js.",
   "license": "MIT",
   "keywords": [
@@ -8,9 +8,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/dai217/secure-spdy.git"
+    "url": "git://github.com/dai217/secure-http2.git"
   },
-  "homepage": "https://github.com/dai217/secure-spdy",
+  "homepage": "https://github.com/dai217/secure-http2",
   "author": {
     "name": "Daisaku Suzuki",
     "email": "aata2770@chiba-u.jp"
@@ -22,7 +22,7 @@
     "select-hose": "^2.0.0",
     "http-deceiver": "^1.2.4",
     "mobile-detect": "^0.4.3",
-    "secure-spdy-transport": "0.0.2"
+    "secure-spdy-transport": "1.0.0"
   },
   "engines": [
     "node >= 0.12.0"
